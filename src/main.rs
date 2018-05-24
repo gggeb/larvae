@@ -239,8 +239,10 @@ fn main() {
         println!("No arguments passed, following defaults.");
     }
 
+    let ored = red.clone();
+
     red = format!("{}/{}", rod, red);
-    style = format!("{}/{}", red, style);
+    style = format!("{}/{}", ored, style);
 
     let (ed, id, od) = (Path::new(&red), Path::new(&rid), Path::new(&rod));
 

@@ -35,31 +35,31 @@ so basically that's it. now i'm gonna run down all the different tags and their 
 ### TAGS
 __HEADING__ [SIZE]
 
-\    a heading tag with the optional argument of a size, which is a number.
+...a heading tag with the optional argument of a size, which is a number.
 
 __SUBTITLE__
     
-\    a subtitle, intended to be nested inside of HEADING tags.
+...a subtitle, intended to be nested inside of HEADING tags.
 
 __LINK__ {URL}
     
-\    a link.
+...a link.
 
 __E__ {B,I,U,S}
     
-\    the emphasis tag, the options are {bold, italic, underlined, secondary color}
-\    and can be used simultaneously.
+...the emphasis tag, the options are {bold, italic, underlined, secondary color}
+...and can be used simultaneously.
 
 __ALIGN__ {LEFT,CENTER,RIGHT}
     
-\    an alignment of either left, center or right.
+...an alignment of either left, center or right.
 
 ### SPECIAL CHARACTERS
 
 __~__
     
-\    a new line.
+...a new line.
 
 __\`__
     
-\    an indent.
+... an indent.

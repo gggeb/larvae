@@ -64,8 +64,10 @@ impl Tag {
             (format!("<span class='{}'>", class).to_string(), "</span>".to_string())
         } else if str == "ALIGN" {
             let align = self.args.trim().to_lowercase();
-
             (format!("<div style='text-align: {}'>", align), "</div>".to_string())
+        } else if str == "FLOAT" {
+            let align = self.args.trim().to_lowercase();
+            (format!("<div style='float: {}'>", align), "</div>".to_string())
         } else {
             ("".to_string(), "".to_string())
         }

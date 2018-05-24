@@ -54,6 +54,10 @@ __ALIGN__ {LEFT,CENTER,RIGHT}
 
 an alignment of either left, center or right.
 
+__FLOAT__ {LEFT,RIGHT}
+
+a float either left or right.
+
 ### SPECIAL CHARACTERS
 
 __~__
